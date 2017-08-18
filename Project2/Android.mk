@@ -3,7 +3,7 @@ LOCAL_PATH := $(call my-dir)
 include $(CLEAR_VARS)
 
 LOCAL_MODULE    := rtp_jni
-LOCAL_SRC_FILES := UnityAPI.cpp MyRTPSession.cpp
+LOCAL_SRC_FILES := 
 #LOCAL_SRC_FILES := test_android.cpp
 
 
