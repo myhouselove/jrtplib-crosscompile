@@ -76,6 +76,8 @@
     <ClCompile Include="libjrtp\tools\gettypes.cpp" />
     <ClCompile Include="libjthread\src\jmutex.cpp" />
     <ClCompile Include="libjthread\src\jthread.cpp" />
+    <ClCompile Include="MyRTPSession.cpp" />
+    <ClCompile Include="UnityAPI.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="jrtp\rtcpapppacket.h" />
@@ -184,6 +186,8 @@
     <ClInclude Include="libjthread\include\jmutex.h" />
     <ClInclude Include="libjthread\include\jmutexautolock.h" />
     <ClInclude Include="libjthread\include\jthread.h" />
+    <ClInclude Include="MyRTPSession.h" />
+    <ClInclude Include="UnityAPI.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Android.mk" />
