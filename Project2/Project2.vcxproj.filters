@@ -1,5 +1,502 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
- <ItemGroup>
- </ItemGroup>
+  <ItemGroup>
+    <Filter Include="libjthread">
+      <UniqueIdentifier>{54722c87-e24e-476c-b435-5c26564ef43a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libjthread\include">
+      <UniqueIdentifier>{f0e1e84a-8314-43ef-bdfe-f584bceda3d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libjthread\src">
+      <UniqueIdentifier>{4b976dbf-68c0-40b0-918f-eeac587c9797}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libjrtp">
+      <UniqueIdentifier>{b25cbafc-7fd1-49a4-8fe6-fff3914d13ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libjrtp\examples">
+      <UniqueIdentifier>{12e665e7-013e-464a-ab23-a6b7d5c00663}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libjrtp\include">
+      <UniqueIdentifier>{9f2bfebf-14b2-4547-a6d8-3a8f9f4bc127}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libjrtp\src">
+      <UniqueIdentifier>{d0445bd3-0537-45d1-9bde-e9bce9c2c2db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libjrtp\src\extratransmitters">
+      <UniqueIdentifier>{24ebd174-1451-43b2-81c5-ecaf48f850dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libjrtp\tools">
+      <UniqueIdentifier>{647f2e10-3160-4530-83a8-0ede0e5e38ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="jrtp">
+      <UniqueIdentifier>{a6ce4fee-cbbf-48f2-a0e8-1fdf82a5ec6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="jthread">
+      <UniqueIdentifier>{af736d22-a960-4e12-835b-0df07e4da1f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libs">
+      <UniqueIdentifier>{a69045e3-f3bb-4bf5-b66b-beaa7030fe4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libs\armeabi-v7a">
+      <UniqueIdentifier>{f400e9d5-73f6-425a-8b82-491acaf054e0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="libjrtp\examples\example1.cpp">
+      <Filter>libjrtp\examples</Filter>
+    </ClCompile>
+    <ClCompile Include="libjrtp\examples\example2.cpp">
+      <Filter>libjrtp\examples</Filter>
+    </ClCompile>
+    <ClCompile Include="libjrtp\examples\example3.cpp">
+      <Filter>libjrtp\examples</Filter>
+    </ClCompile>
+    <ClCompile Include="libjrtp\examples\example4.cpp">
+      <Filter>libjrtp\examples</Filter>
+    </ClCompile>
+    <ClCompile Include="libjrtp\examples\example5.cpp">
+      <Filter>libjrtp\examples</Filter>
+    </ClCompile>
+    <ClCompile Include="libjrtp\src\jmutex.cpp">
+      <Filter>libjrtp\src</Filter>
+    </ClCompile>
+    <ClCompile Include="libjrtp\src\jthread.cpp">
+      <Filter>libjrtp\src</Filter>
+    </ClCompile>
+    <ClCompile Include="libjrtp\src\rtcpapppacket.cpp">
+      <Filter>libjrtp\src</Filter>
+    </ClCompile>
+    <ClCompile Include="libjrtp\src\rtcpbyepacket.cpp">
+      <Filter>libjrtp\src</Filter>
+    </ClCompile>
+    <ClCompile Include="libjrtp\src\rtcpcompoundpacket.cpp">
+      <Filter>libjrtp\src</Filter>
+    </ClCompile>
+    <ClCompile Include="libjrtp\src\rtcpcompoundpacketbuilder.cpp">
+      <Filter>libjrtp\src</Filter>
+    </ClCompile>
+    <ClCompile Include="libjrtp\src\rtcppacket.cpp">
+      <Filter>libjrtp\src</Filter>
+    </ClCompile>
+    <ClCompile Include="libjrtp\src\rtcppacketbuilder.cpp">
+      <Filter>libjrtp\src</Filter>
+    </ClCompile>
+    <ClCompile Include="libjrtp\src\rtcprrpacket.cpp">
+      <Filter>libjrtp\src</Filter>
+    </ClCompile>
+    <ClCompile Include="libjrtp\src\rtcpscheduler.cpp">
+      <Filter>libjrtp\src</Filter>
+    </ClCompile>
+    <ClCompile Include="libjrtp\src\rtcpsdesinfo.cpp">
+      <Filter>libjrtp\src</Filter>
+    </ClCompile>
+    <ClCompile Include="libjrtp\src\rtcpsdespacket.cpp">
+      <Filter>libjrtp\src</Filter>
+    </ClCompile>
+    <ClCompile Include="libjrtp\src\rtcpsrpacket.cpp">
+      <Filter>libjrtp\src</Filter>
+    </ClCompile>
+    <ClCompile Include="libjrtp\src\rtpcollisionlist.cpp">
+      <Filter>libjrtp\src</Filter>
+    </ClCompile>
+    <ClCompile Include="libjrtp\src\rtpdebug.cpp">
+      <Filter>libjrtp\src</Filter>
+    </ClCompile>
+    <ClCompile Include="libjrtp\src\rtperrors.cpp">
+      <Filter>libjrtp\src</Filter>
+    </ClCompile>
+    <ClCompile Include="libjrtp\src\rtpinternalsourcedata.cpp">
+      <Filter>libjrtp\src</Filter>
+    </ClCompile>
+    <ClCompile Include="libjrtp\src\rtpipv4address.cpp">
+      <Filter>libjrtp\src</Filter>
+    </ClCompile>
+    <ClCompile Include="libjrtp\src\rtpipv6address.cpp">
+      <Filter>libjrtp\src</Filter>
+    </ClCompile>
+    <ClCompile Include="libjrtp\src\rtplibraryversion.cpp">
+      <Filter>libjrtp\src</Filter>
+    </ClCompile>
+    <ClCompile Include="libjrtp\src\rtppacket.cpp">
+      <Filter>libjrtp\src</Filter>
+    </ClCompile>
+    <ClCompile Include="libjrtp\src\rtppacketbuilder.cpp">
+      <Filter>libjrtp\src</Filter>
+    </ClCompile>
+    <ClCompile Include="libjrtp\src\rtppollthread.cpp">
+      <Filter>libjrtp\src</Filter>
+    </ClCompile>
+    <ClCompile Include="libjrtp\src\rtprandom.cpp">
+      <Filter>libjrtp\src</Filter>
+    </ClCompile>
+    <ClCompile Include="libjrtp\src\rtpsession.cpp">
+      <Filter>libjrtp\src</Filter>
+    </ClCompile>
+    <ClCompile Include="libjrtp\src\rtpsessionparams.cpp">
+      <Filter>libjrtp\src</Filter>
+    </ClCompile>
+    <ClCompile Include="libjrtp\src\rtpsessionsources.cpp">
+      <Filter>libjrtp\src</Filter>
+    </ClCompile>
+    <ClCompile Include="libjrtp\src\rtpsourcedata.cpp">
+      <Filter>libjrtp\src</Filter>
+    </ClCompile>
+    <ClCompile Include="libjrtp\src\rtpsources.cpp">
+      <Filter>libjrtp\src</Filter>
+    </ClCompile>
+    <ClCompile Include="libjrtp\src\rtptimeutilities.cpp">
+      <Filter>libjrtp\src</Filter>
+    </ClCompile>
+    <ClCompile Include="libjrtp\src\rtpudpv4transmitter.cpp">
+      <Filter>libjrtp\src</Filter>
+    </ClCompile>
+    <ClCompile Include="libjrtp\src\rtpudpv6transmitter.cpp">
+      <Filter>libjrtp\src</Filter>
+    </ClCompile>
+    <ClCompile Include="libjrtp\src\extratransmitters\rtpfaketransmitter.cpp">
+      <Filter>libjrtp\src\extratransmitters</Filter>
+    </ClCompile>
+    <ClCompile Include="libjrtp\tools\gettypes.cpp">
+      <Filter>libjrtp\tools</Filter>
+    </ClCompile>
+    <ClCompile Include="libjthread\src\jmutex.cpp">
+      <Filter>libjthread\src</Filter>
+    </ClCompile>
+    <ClCompile Include="libjthread\src\jthread.cpp">
+      <Filter>libjthread\src</Filter>
+    </ClCompile>
+    <ClCompile Include="MyRTPSession.cpp" />
+    <ClCompile Include="UnityAPI.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="libjrtp\include\jmutex.h">
+      <Filter>libjrtp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="libjrtp\include\jthread.h">
+      <Filter>libjrtp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="libjrtp\include\rtcpapppacket.h">
+      <Filter>libjrtp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="libjrtp\include\rtcpbyepacket.h">
+      <Filter>libjrtp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="libjrtp\include\rtcpcompoundpacket.h">
+      <Filter>libjrtp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="libjrtp\include\rtcpcompoundpacketbuilder.h">
+      <Filter>libjrtp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="libjrtp\include\rtcppacket.h">
+      <Filter>libjrtp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="libjrtp\include\rtcppacketbuilder.h">
+      <Filter>libjrtp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="libjrtp\include\rtcprrpacket.h">
+      <Filter>libjrtp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="libjrtp\include\rtcpscheduler.h">
+      <Filter>libjrtp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="libjrtp\include\rtcpsdesinfo.h">
+      <Filter>libjrtp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="libjrtp\include\rtcpsdespacket.h">
+      <Filter>libjrtp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="libjrtp\include\rtcpsrpacket.h">
+      <Filter>libjrtp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="libjrtp\include\rtcpunknownpacket.h">
+      <Filter>libjrtp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="libjrtp\include\rtpaddress.h">
+      <Filter>libjrtp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="libjrtp\include\rtpcollisionlist.h">
+      <Filter>libjrtp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="libjrtp\include\rtpconfig.h">
+      <Filter>libjrtp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="libjrtp\include\rtpconfig_unix.h">
+      <Filter>libjrtp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="libjrtp\include\rtpconfig_win.h">
+      <Filter>libjrtp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="libjrtp\include\rtpdebug.h">
+      <Filter>libjrtp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="libjrtp\include\rtpdefines.h">
+      <Filter>libjrtp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="libjrtp\include\rtperrors.h">
+      <Filter>libjrtp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="libjrtp\include\rtpfaketransmitter.h">
+      <Filter>libjrtp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="libjrtp\include\rtphashtable.h">
+      <Filter>libjrtp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="libjrtp\include\rtpinternalsourcedata.h">
+      <Filter>libjrtp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="libjrtp\include\rtpipv4address.h">
+      <Filter>libjrtp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="libjrtp\include\rtpipv4destination.h">
+      <Filter>libjrtp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="libjrtp\include\rtpipv6address.h">
+      <Filter>libjrtp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="libjrtp\include\rtpipv6destination.h">
+      <Filter>libjrtp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="libjrtp\include\rtpkeyhashtable.h">
+      <Filter>libjrtp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="libjrtp\include\rtplibraryversion.h">
+      <Filter>libjrtp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="libjrtp\include\rtpmemorymanager.h">
+      <Filter>libjrtp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="libjrtp\include\rtpmemoryobject.h">
+      <Filter>libjrtp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="libjrtp\include\rtppacket.h">
+      <Filter>libjrtp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="libjrtp\include\rtppacketbuilder.h">
+      <Filter>libjrtp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="libjrtp\include\rtppollthread.h">
+      <Filter>libjrtp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="libjrtp\include\rtprandom.h">
+      <Filter>libjrtp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="libjrtp\include\rtprawpacket.h">
+      <Filter>libjrtp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="libjrtp\include\rtpsession.h">
+      <Filter>libjrtp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="libjrtp\include\rtpsessionparams.h">
+      <Filter>libjrtp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="libjrtp\include\rtpsessionsources.h">
+      <Filter>libjrtp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="libjrtp\include\rtpsourcedata.h">
+      <Filter>libjrtp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="libjrtp\include\rtpsources.h">
+      <Filter>libjrtp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="libjrtp\include\rtpstructs.h">
+      <Filter>libjrtp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="libjrtp\include\rtptimeutilities.h">
+      <Filter>libjrtp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="libjrtp\include\rtptransmitter.h">
+      <Filter>libjrtp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="libjrtp\include\rtptypes.h">
+      <Filter>libjrtp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="libjrtp\include\rtptypes_unix.h">
+      <Filter>libjrtp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="libjrtp\include\rtptypes_win.h">
+      <Filter>libjrtp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="libjrtp\include\rtpudpv4transmitter.h">
+      <Filter>libjrtp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="libjrtp\include\rtpudpv6transmitter.h">
+      <Filter>libjrtp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="libjthread\include\jmutex.h">
+      <Filter>libjthread\include</Filter>
+    </ClInclude>
+    <ClInclude Include="libjthread\include\jmutexautolock.h">
+      <Filter>libjthread\include</Filter>
+    </ClInclude>
+    <ClInclude Include="libjthread\include\jthread.h">
+      <Filter>libjthread\include</Filter>
+    </ClInclude>
+    <ClInclude Include="jrtp\rtcpapppacket.h">
+      <Filter>jrtp</Filter>
+    </ClInclude>
+    <ClInclude Include="jrtp\rtcpbyepacket.h">
+      <Filter>jrtp</Filter>
+    </ClInclude>
+    <ClInclude Include="jrtp\rtcpcompoundpacket.h">
+      <Filter>jrtp</Filter>
+    </ClInclude>
+    <ClInclude Include="jrtp\rtcpcompoundpacketbuilder.h">
+      <Filter>jrtp</Filter>
+    </ClInclude>
+    <ClInclude Include="jrtp\rtcppacket.h">
+      <Filter>jrtp</Filter>
+    </ClInclude>
+    <ClInclude Include="jrtp\rtcppacketbuilder.h">
+      <Filter>jrtp</Filter>
+    </ClInclude>
+    <ClInclude Include="jrtp\rtcprrpacket.h">
+      <Filter>jrtp</Filter>
+    </ClInclude>
+    <ClInclude Include="jrtp\rtcpscheduler.h">
+      <Filter>jrtp</Filter>
+    </ClInclude>
+    <ClInclude Include="jrtp\rtcpsdesinfo.h">
+      <Filter>jrtp</Filter>
+    </ClInclude>
+    <ClInclude Include="jrtp\rtcpsdespacket.h">
+      <Filter>jrtp</Filter>
+    </ClInclude>
+    <ClInclude Include="jrtp\rtcpsrpacket.h">
+      <Filter>jrtp</Filter>
+    </ClInclude>
+    <ClInclude Include="jrtp\rtcpunknownpacket.h">
+      <Filter>jrtp</Filter>
+    </ClInclude>
+    <ClInclude Include="jrtp\rtpaddress.h">
+      <Filter>jrtp</Filter>
+    </ClInclude>
+    <ClInclude Include="jrtp\rtpcollisionlist.h">
+      <Filter>jrtp</Filter>
+    </ClInclude>
+    <ClInclude Include="jrtp\rtpconfig.h">
+      <Filter>jrtp</Filter>
+    </ClInclude>
+    <ClInclude Include="jrtp\rtpconfig_unix.h">
+      <Filter>jrtp</Filter>
+    </ClInclude>
+    <ClInclude Include="jrtp\rtpconfig_win.h">
+      <Filter>jrtp</Filter>
+    </ClInclude>
+    <ClInclude Include="jrtp\rtpdebug.h">
+      <Filter>jrtp</Filter>
+    </ClInclude>
+    <ClInclude Include="jrtp\rtpdefines.h">
+      <Filter>jrtp</Filter>
+    </ClInclude>
+    <ClInclude Include="jrtp\rtperrors.h">
+      <Filter>jrtp</Filter>
+    </ClInclude>
+    <ClInclude Include="jrtp\rtpfaketransmitter.h">
+      <Filter>jrtp</Filter>
+    </ClInclude>
+    <ClInclude Include="jrtp\rtphashtable.h">
+      <Filter>jrtp</Filter>
+    </ClInclude>
+    <ClInclude Include="jrtp\rtpinternalsourcedata.h">
+      <Filter>jrtp</Filter>
+    </ClInclude>
+    <ClInclude Include="jrtp\rtpipv4address.h">
+      <Filter>jrtp</Filter>
+    </ClInclude>
+    <ClInclude Include="jrtp\rtpipv4destination.h">
+      <Filter>jrtp</Filter>
+    </ClInclude>
+    <ClInclude Include="jrtp\rtpipv6address.h">
+      <Filter>jrtp</Filter>
+    </ClInclude>
+    <ClInclude Include="jrtp\rtpipv6destination.h">
+      <Filter>jrtp</Filter>
+    </ClInclude>
+    <ClInclude Include="jrtp\rtpkeyhashtable.h">
+      <Filter>jrtp</Filter>
+    </ClInclude>
+    <ClInclude Include="jrtp\rtplibraryversion.h">
+      <Filter>jrtp</Filter>
+    </ClInclude>
+    <ClInclude Include="jrtp\rtpmemorymanager.h">
+      <Filter>jrtp</Filter>
+    </ClInclude>
+    <ClInclude Include="jrtp\rtpmemoryobject.h">
+      <Filter>jrtp</Filter>
+    </ClInclude>
+    <ClInclude Include="jrtp\rtppacket.h">
+      <Filter>jrtp</Filter>
+    </ClInclude>
+    <ClInclude Include="jrtp\rtppacketbuilder.h">
+      <Filter>jrtp</Filter>
+    </ClInclude>
+    <ClInclude Include="jrtp\rtppollthread.h">
+      <Filter>jrtp</Filter>
+    </ClInclude>
+    <ClInclude Include="jrtp\rtprandom.h">
+      <Filter>jrtp</Filter>
+    </ClInclude>
+    <ClInclude Include="jrtp\rtprawpacket.h">
+      <Filter>jrtp</Filter>
+    </ClInclude>
+    <ClInclude Include="jrtp\rtpsession.h">
+      <Filter>jrtp</Filter>
+    </ClInclude>
+    <ClInclude Include="jrtp\rtpsessionparams.h">
+      <Filter>jrtp</Filter>
+    </ClInclude>
+    <ClInclude Include="jrtp\rtpsessionsources.h">
+      <Filter>jrtp</Filter>
+    </ClInclude>
+    <ClInclude Include="jrtp\rtpsourcedata.h">
+      <Filter>jrtp</Filter>
+    </ClInclude>
+    <ClInclude Include="jrtp\rtpsources.h">
+      <Filter>jrtp</Filter>
+    </ClInclude>
+    <ClInclude Include="jrtp\rtpstructs.h">
+      <Filter>jrtp</Filter>
+    </ClInclude>
+    <ClInclude Include="jrtp\rtptimeutilities.h">
+      <Filter>jrtp</Filter>
+    </ClInclude>
+    <ClInclude Include="jrtp\rtptransmitter.h">
+      <Filter>jrtp</Filter>
+    </ClInclude>
+    <ClInclude Include="jrtp\rtptypes.h">
+      <Filter>jrtp</Filter>
+    </ClInclude>
+    <ClInclude Include="jrtp\rtptypes_unix.h">
+      <Filter>jrtp</Filter>
+    </ClInclude>
+    <ClInclude Include="jrtp\rtptypes_win.h">
+      <Filter>jrtp</Filter>
+    </ClInclude>
+    <ClInclude Include="jrtp\rtpudpv4transmitter.h">
+      <Filter>jrtp</Filter>
+    </ClInclude>
+    <ClInclude Include="jrtp\rtpudpv6transmitter.h">
+      <Filter>jrtp</Filter>
+    </ClInclude>
+    <ClInclude Include="jthread\jmutex.h">
+      <Filter>jthread</Filter>
+    </ClInclude>
+    <ClInclude Include="jthread\jmutexautolock.h">
+      <Filter>jthread</Filter>
+    </ClInclude>
+    <ClInclude Include="jthread\jthread.h">
+      <Filter>jthread</Filter>
+    </ClInclude>
+    <ClInclude Include="MyRTPSession.h" />
+    <ClInclude Include="UnityAPI.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Android.mk" />
+    <None Include="Application.mk" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="libs\armeabi-v7a\librtp_jni.so">
+      <Filter>libs\armeabi-v7a</Filter>
+    </Library>
+  </ItemGroup>
 </Project>
